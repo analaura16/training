@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 
 public class DemoTest {
 
+	// trying git from command line
+	
 	@Test
 	public void sum() {
 		System.out.println("sum test");
