@@ -12,8 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestBase {
 
-	static WebDriver driver;
-	static Properties prop;
+	public static WebDriver driver;
+	public static Properties prop;
 	
 	public TestBase() {
 		
@@ -38,12 +38,12 @@ public class TestBase {
 		
 		if (browserName.equals("chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\apace\\Documents\\Chrome driver versions\\chrome driver 2.37");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\apace\\Documents\\Chrome driver versions\\chrome driver 2.37\\chromedriver.exe");
 			driver = new ChromeDriver();
 			
 		} else if (browserName.equals("FF")) {
 			
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\apace\\Documents\\FirefoxDriver");
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\apace\\Documents\\FirefoxDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			
 		}
