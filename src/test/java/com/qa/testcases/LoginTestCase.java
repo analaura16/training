@@ -3,6 +3,7 @@ package com.qa.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.qa.base.TestBase;
@@ -40,9 +41,19 @@ public class LoginTestCase extends TestBase {
 		
 	}
 	
-	@Test(priority=3)
-	public void loginTest() {
-		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+	@DataProvider(name="credentials")
+	public Object[][] credentialsLogin() {
+		
+		Object[][] credentials = {{"user1", "pwd1"}, {"user2", "pwd2"}};
+		return credentials;
+		
+	}
+	
+	
+	@Test(dataProvider = "credentials", priority=3)
+	public void loginTest(String user, String pwd) {
+		homePage = loginPage.login(user, pwd);
+		//homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
 	@AfterMethod
