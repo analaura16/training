@@ -1,85 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="113988" started-at="2018-09-10T18:59:08Z" finished-at="2018-09-10T19:01:02Z">
+  <suite name="Default suite" duration-ms="8109" started-at="2018-09-11T18:31:26Z" finished-at="2018-09-11T18:31:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="113988" started-at="2018-09-10T18:59:08Z" finished-at="2018-09-10T19:01:02Z">
-      <class name="com.qa.testcases.LoginTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="setUp" is-config="true" duration-ms="65442" started-at="2018-09-10T18:59:08Z" finished-at="2018-09-10T19:00:13Z">
+    <test name="Default test" duration-ms="8109" started-at="2018-09-11T18:31:26Z" finished-at="2018-09-11T18:31:34Z">
+      <class name="com.qa.datadriventest.DataDrivenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.datadriventest.DataDrivenTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="5194" started-at="2018-09-11T18:31:26Z" finished-at="2018-09-11T18:31:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="loginPageTitleTest" duration-ms="145" started-at="2018-09-10T19:00:13Z" finished-at="2018-09-10T19:00:14Z">
+        <test-method status="PASS" signature="printLine()[pri:2, instance:com.qa.datadriventest.DataDrivenTest@6a41eaa2]" name="printLine" duration-ms="5" started-at="2018-09-11T18:31:31Z" finished-at="2018-09-11T18:31:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="endTest" is-config="true" duration-ms="1454" started-at="2018-09-10T19:00:14Z" finished-at="2018-09-10T19:00:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="setUp" is-config="true" duration-ms="14400" started-at="2018-09-10T19:00:15Z" finished-at="2018-09-10T19:00:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="crmLogoImageTest" duration-ms="477" started-at="2018-09-10T19:00:29Z" finished-at="2018-09-10T19:00:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crmLogoImageTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="endTest" is-config="true" duration-ms="968" started-at="2018-09-10T19:00:30Z" finished-at="2018-09-10T19:00:31Z">
+        </test-method> <!-- printLine -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.datadriventest.DataDrivenTest@6a41eaa2]" name="endTest" is-config="true" duration-ms="2894" started-at="2018-09-11T18:31:31Z" finished-at="2018-09-11T18:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="setUp" is-config="true" duration-ms="11534" started-at="2018-09-10T19:00:31Z" finished-at="2018-09-10T19:00:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="loginTest" duration-ms="3263" started-at="2018-09-10T19:00:43Z" data-provider="credentials" finished-at="2018-09-10T19:00:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pwd1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="endTest" is-config="true" duration-ms="965" started-at="2018-09-10T19:00:46Z" finished-at="2018-09-10T19:00:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="setUp" is-config="true" duration-ms="11673" started-at="2018-09-10T19:00:47Z" finished-at="2018-09-10T19:00:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="loginTest" duration-ms="2556" started-at="2018-09-10T19:00:58Z" data-provider="credentials" finished-at="2018-09-10T19:01:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pwd2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.testcases.LoginTestCase@6d4b1c02]" name="endTest" is-config="true" duration-ms="945" started-at="2018-09-10T19:01:01Z" finished-at="2018-09-10T19:01:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.qa.testcases.LoginTestCase -->
+      </class> <!-- com.qa.datadriventest.DataDrivenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
